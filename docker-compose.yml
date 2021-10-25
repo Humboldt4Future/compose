@@ -1,0 +1,10 @@
+version: '2.1'
+services:
+  server:
+    build: ./server
+    ports:
+      - "4999:4999"
+  quiz:
+    build: ./quiz
+    ports:
+      - "3000:3000"
